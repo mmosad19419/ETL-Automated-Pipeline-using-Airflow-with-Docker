@@ -48,7 +48,7 @@ contain docker image files and setup
 - Dockerfile
 - requirements.txt
 
-###### dags folder
+##### 3.dags folder
 contain main script file, and dag file
 - etl-dag.py, contain the dag building blocks of the pipeline
 - etl_script.py, contain the function definitions for functions used in the dag
