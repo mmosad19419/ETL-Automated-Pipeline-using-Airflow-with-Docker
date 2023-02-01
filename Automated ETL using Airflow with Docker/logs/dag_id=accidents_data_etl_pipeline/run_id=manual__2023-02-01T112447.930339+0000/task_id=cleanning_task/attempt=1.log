@@ -1,0 +1,25 @@
+[2023-02-01T11:25:26.802+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: accidents_data_etl_pipeline.cleanning_task manual__2023-02-01T11:24:47.930339+00:00 [queued]>
+[2023-02-01T11:25:26.837+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: accidents_data_etl_pipeline.cleanning_task manual__2023-02-01T11:24:47.930339+00:00 [queued]>
+[2023-02-01T11:25:26.844+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01T11:25:26.845+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2023-02-01T11:25:26.846+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01T11:25:26.913+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): cleanning_task> on 2023-02-01 11:24:47.930339+00:00
+[2023-02-01T11:25:26.926+0000] {standard_task_runner.py:55} INFO - Started process 739 to run task
+[2023-02-01T11:25:26.946+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'accidents_data_etl_pipeline', 'cleanning_task', 'manual__2023-02-01T11:24:47.930339+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmp4j17f366']
+[2023-02-01T11:25:26.957+0000] {standard_task_runner.py:83} INFO - Job 39: Subtask cleanning_task
+[2023-02-01T11:25:27.164+0000] {task_command.py:389} INFO - Running <TaskInstance: accidents_data_etl_pipeline.cleanning_task manual__2023-02-01T11:24:47.930339+00:00 [running]> on host 90e3bfc5c2e2
+[2023-02-01T11:25:27.398+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=accidents_data_etl_pipeline
+AIRFLOW_CTX_TASK_ID=cleanning_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-01T11:24:47.930339+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-01T11:24:47.930339+00:00
+[2023-02-01T11:25:33.382+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.7/site-packages/***/operators/python.py:192 DtypeWarning: Columns (10) have mixed types.Specify dtype option on import or set low_memory=False.
+[2023-02-01T11:25:57.020+0000] {logging_mixin.py:137} INFO - Data Cleaned Successfully
+[2023-02-01T11:25:57.044+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-01T11:25:57.061+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=accidents_data_etl_pipeline, task_id=cleanning_task, execution_date=20230201T112447, start_date=20230201T112526, end_date=20230201T112557
+[2023-02-01T11:25:57.104+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-02-01T11:25:57.141+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

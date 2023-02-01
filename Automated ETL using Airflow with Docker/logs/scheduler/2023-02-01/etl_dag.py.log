@@ -1,0 +1,130 @@
+[2023-02-01T11:21:50.160+0000] {processor.py:153} INFO - Started process (PID=467) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:21:50.162+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:21:50.165+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:21:50.165+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:21:51.753+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:21:51.867+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:21:51.866+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:21:51.899+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:21:51.898+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to 2023-02-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01T11:21:51.938+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 1.787 seconds
+[2023-02-01T11:22:22.338+0000] {processor.py:153} INFO - Started process (PID=503) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:22:22.341+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:22:22.344+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:22:22.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:22:23.548+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:22:23.627+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:22:23.627+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:22:23.659+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:22:23.659+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to 2023-02-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01T11:22:23.688+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 1.360 seconds
+[2023-02-01T11:22:54.126+0000] {processor.py:153} INFO - Started process (PID=539) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:22:54.129+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:22:54.131+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:22:54.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:22:55.623+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:22:55.676+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:22:55.675+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:22:55.713+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:22:55.713+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to 2023-02-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01T11:22:55.743+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 1.627 seconds
+[2023-02-01T11:23:26.172+0000] {processor.py:153} INFO - Started process (PID=585) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:23:26.174+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:23:26.176+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:23:26.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:23:27.965+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:23:28.034+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:23:28.033+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:23:28.078+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:23:28.077+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to 2023-02-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01T11:23:28.107+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 1.941 seconds
+[2023-02-01T11:23:58.760+0000] {processor.py:153} INFO - Started process (PID=631) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:23:58.761+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:23:58.763+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:23:58.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:23:59.728+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:23:59.775+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:23:59.774+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:23:59.807+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:23:59.806+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to 2023-02-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01T11:23:59.836+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 1.082 seconds
+[2023-02-01T11:24:30.530+0000] {processor.py:153} INFO - Started process (PID=668) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:24:30.532+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:24:30.533+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:24:30.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:24:31.651+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:24:31.699+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:24:31.698+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:24:31.732+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:24:31.732+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to 2023-02-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01T11:24:31.774+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 1.249 seconds
+[2023-02-01T11:25:02.532+0000] {processor.py:153} INFO - Started process (PID=710) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:25:02.542+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:25:02.549+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:25:02.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:25:06.527+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:25:06.602+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:25:06.602+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:25:06.673+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:25:06.672+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to None, run_after=None
+[2023-02-01T11:25:06.759+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 4.245 seconds
+[2023-02-01T11:25:37.576+0000] {processor.py:153} INFO - Started process (PID=754) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:25:37.578+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:25:37.581+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:25:37.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:25:39.853+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:25:39.917+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:25:39.916+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:25:39.977+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:25:39.975+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to None, run_after=None
+[2023-02-01T11:25:40.052+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 2.485 seconds
+[2023-02-01T11:26:10.609+0000] {processor.py:153} INFO - Started process (PID=796) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:26:10.611+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:26:10.615+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:26:10.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:26:14.466+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:26:14.564+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:26:14.559+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:26:14.646+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:26:14.645+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to None, run_after=None
+[2023-02-01T11:26:14.709+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 4.124 seconds
+[2023-02-01T11:26:45.345+0000] {processor.py:153} INFO - Started process (PID=830) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:26:45.356+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:26:45.361+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:26:45.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:26:48.522+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:26:48.626+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:26:48.625+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:26:48.709+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:26:48.709+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to None, run_after=None
+[2023-02-01T11:26:48.812+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 3.479 seconds
+[2023-02-01T11:27:19.053+0000] {processor.py:153} INFO - Started process (PID=856) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:27:19.054+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:27:19.056+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:27:19.056+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:27:20.914+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:27:20.989+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:27:20.988+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:27:21.051+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:27:21.050+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to None, run_after=None
+[2023-02-01T11:27:21.100+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 2.053 seconds
+[2023-02-01T11:27:51.724+0000] {processor.py:153} INFO - Started process (PID=893) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:27:51.727+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:27:51.729+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:27:51.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:27:53.734+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:27:53.829+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:27:53.828+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:27:53.906+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:27:53.906+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to None, run_after=None
+[2023-02-01T11:27:53.956+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 2.244 seconds
+[2023-02-01T11:28:24.315+0000] {processor.py:153} INFO - Started process (PID=930) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:28:24.319+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:28:24.321+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:28:24.321+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:28:26.945+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:28:27.006+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:28:27.005+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:28:27.050+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:28:27.049+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to None, run_after=None
+[2023-02-01T11:28:27.106+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 2.798 seconds
+[2023-02-01T11:28:57.491+0000] {processor.py:153} INFO - Started process (PID=978) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:28:57.492+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:28:57.495+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:28:57.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:28:59.143+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:28:59.220+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:28:59.219+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:28:59.301+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:28:59.300+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to None, run_after=None
+[2023-02-01T11:28:59.351+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 1.865 seconds
+[2023-02-01T11:29:29.753+0000] {processor.py:153} INFO - Started process (PID=1015) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:29:29.754+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:29:29.756+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:29:29.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:29:32.369+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:29:32.418+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:29:32.418+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:29:32.485+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:29:32.485+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to None, run_after=None
+[2023-02-01T11:29:32.536+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl_dag.py took 2.789 seconds
+[2023-02-01T11:30:02.931+0000] {processor.py:153} INFO - Started process (PID=1051) to work on /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:30:02.935+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2023-02-01T11:30:02.937+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:30:02.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2023-02-01T11:30:14.096+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:30:14.096+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...
+[2023-02-01T11:30:14.105+0000] {logging_mixin.py:137} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7feb49477440>
+[2023-02-01T11:30:14.106+0000] {logging_mixin.py:137} WARNING - Traceback (most recent call last):
+[2023-02-01T11:30:14.107+0000] {logging_mixin.py:137} WARNING -   File "/usr/local/lib/python3.7/weakref.py", line 358, in remove
+[2023-02-01T11:30:14.108+0000] {logging_mixin.py:137} WARNING -     def remove(k, selfref=ref(self)):
+[2023-02-01T11:30:14.109+0000] {logging_mixin.py:137} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 466, in _exit_gracefully
+[2023-02-01T11:30:14.109+0000] {logging_mixin.py:137} WARNING -     self.log.debug("Current Stacktrace is: %s", "\n".join(map(str, inspect.stack())))
+[2023-02-01T11:30:14.110+0000] {logging_mixin.py:137} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1513, in stack
+[2023-02-01T11:30:14.111+0000] {logging_mixin.py:137} WARNING -     return getouterframes(sys._getframe(1), context)
+[2023-02-01T11:30:14.112+0000] {logging_mixin.py:137} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1490, in getouterframes
+[2023-02-01T11:30:14.113+0000] {logging_mixin.py:137} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2023-02-01T11:30:14.114+0000] {logging_mixin.py:137} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1464, in getframeinfo
+[2023-02-01T11:30:14.115+0000] {logging_mixin.py:137} WARNING -     lines, lnum = findsource(frame)
+[2023-02-01T11:30:14.115+0000] {logging_mixin.py:137} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 780, in findsource
+[2023-02-01T11:30:14.119+0000] {logging_mixin.py:137} WARNING -     module = getmodule(object, file)
+[2023-02-01T11:30:14.122+0000] {logging_mixin.py:137} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 733, in getmodule
+[2023-02-01T11:30:14.124+0000] {logging_mixin.py:137} WARNING -     if ismodule(module) and hasattr(module, '__file__'):
+[2023-02-01T11:30:14.125+0000] {logging_mixin.py:137} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 29, in getattr_with_deprecation
+[2023-02-01T11:30:14.126+0000] {logging_mixin.py:137} WARNING -     raise AttributeError(f"The module `{module!r}` has no attribute `{name!r}`")
+[2023-02-01T11:30:14.126+0000] {logging_mixin.py:137} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 470, in _exit_gracefully
+[2023-02-01T11:30:14.127+0000] {logging_mixin.py:137} WARNING -     sys.exit(os.EX_OK)
+[2023-02-01T11:30:14.127+0000] {logging_mixin.py:137} WARNING - SystemExit: 0

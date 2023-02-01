@@ -1,0 +1,305 @@
+[2023-02-01T11:06:15.559+0000] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:06:15.564+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:06:15.569+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:06:15.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:06:15.621+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:06:15.613+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:06:15.623+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:06:15.668+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.118 seconds
+[2023-02-01T11:06:45.821+0000] {processor.py:153} INFO - Started process (PID=208) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:06:45.823+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:06:45.824+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:06:45.824+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:06:45.848+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:06:45.843+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:06:45.850+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:06:45.880+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.063 seconds
+[2023-02-01T11:07:16.185+0000] {processor.py:153} INFO - Started process (PID=238) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:07:16.188+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:07:16.192+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:07:16.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:07:16.267+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:07:16.250+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:07:16.273+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:07:16.393+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.223 seconds
+[2023-02-01T11:07:46.628+0000] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:07:46.640+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:07:46.642+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:07:46.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:07:46.677+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:07:46.662+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:07:46.679+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:07:46.749+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.140 seconds
+[2023-02-01T11:08:17.015+0000] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:08:17.018+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:08:17.022+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:08:17.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:08:17.100+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:08:17.081+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:08:17.106+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:08:17.194+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.193 seconds
+[2023-02-01T11:08:47.550+0000] {processor.py:153} INFO - Started process (PID=339) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:08:47.554+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:08:47.558+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:08:47.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:08:47.606+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:08:47.594+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:08:47.609+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:08:47.681+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.142 seconds
+[2023-02-01T11:09:17.966+0000] {processor.py:153} INFO - Started process (PID=369) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:09:17.968+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:09:17.971+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:09:17.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:09:18.018+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:09:18.004+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:09:18.023+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:09:18.096+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.143 seconds
+[2023-02-01T11:09:48.629+0000] {processor.py:153} INFO - Started process (PID=398) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:09:48.631+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:09:48.632+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:09:48.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:09:48.664+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:09:48.657+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:09:48.668+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:09:48.726+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.104 seconds
+[2023-02-01T11:10:18.991+0000] {processor.py:153} INFO - Started process (PID=428) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:10:18.993+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:10:18.995+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:10:18.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:10:19.034+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:10:19.024+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:10:19.037+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:10:19.102+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.119 seconds
+[2023-02-01T11:10:49.546+0000] {processor.py:153} INFO - Started process (PID=459) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:10:49.548+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:10:49.549+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:10:49.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:10:49.573+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:10:49.566+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:10:49.575+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:10:49.627+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.088 seconds
+[2023-02-01T11:11:20.055+0000] {processor.py:153} INFO - Started process (PID=500) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:11:20.059+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:11:20.061+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:11:20.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:11:20.079+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:11:20.074+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:11:20.082+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:11:20.131+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.084 seconds
+[2023-02-01T11:12:11.282+0000] {processor.py:153} INFO - Started process (PID=165) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:12:11.285+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:12:11.287+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:12:11.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:12:11.323+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:12:11.316+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:12:11.325+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:12:11.852+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.575 seconds
+[2023-02-01T11:12:42.509+0000] {processor.py:153} INFO - Started process (PID=196) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:12:42.512+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:12:42.516+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:12:42.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:12:42.593+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:12:42.576+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:12:42.598+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:12:42.694+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.210 seconds
+[2023-02-01T11:13:12.890+0000] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:13:12.891+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:13:12.892+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:13:12.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:13:12.914+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:13:12.908+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:13:12.915+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:13:12.951+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.069 seconds
+[2023-02-01T11:13:43.334+0000] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:13:43.336+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:13:43.337+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:13:43.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:13:43.357+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:13:43.352+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:13:43.358+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:13:43.421+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.091 seconds
+[2023-02-01T11:14:13.823+0000] {processor.py:153} INFO - Started process (PID=296) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:14:13.825+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:14:13.826+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:14:13.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:14:13.846+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:14:13.841+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:14:13.847+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:14:13.884+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.066 seconds
+[2023-02-01T11:16:49.174+0000] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:16:49.175+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:16:49.177+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:16:49.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:16:49.208+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:16:49.200+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:16:49.210+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:16:49.239+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.069 seconds
+[2023-02-01T11:17:19.474+0000] {processor.py:153} INFO - Started process (PID=207) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:17:19.475+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:17:19.477+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:17:19.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:17:19.500+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:17:19.494+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:17:19.503+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:17:19.540+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.071 seconds
+[2023-02-01T11:17:49.970+0000] {processor.py:153} INFO - Started process (PID=238) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:17:49.972+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:17:49.975+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:17:49.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:17:50.030+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:17:50.018+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:17:50.034+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:17:50.113+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.151 seconds
+[2023-02-01T11:18:20.388+0000] {processor.py:153} INFO - Started process (PID=268) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:18:20.390+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:18:20.391+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:20.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:18:20.411+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:20.406+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from ...etl_script.etl_script import *
+ImportError: attempted relative import with no known parent package
+[2023-02-01T11:18:20.413+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:18:20.454+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 0.071 seconds
+[2023-02-01T11:18:24.411+0000] {processor.py:153} INFO - Started process (PID=286) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:18:24.413+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:18:24.414+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:24.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:18:27.188+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:27.183+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etl-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-dag.py", line 2, in <module>
+    from etl_script.etl_script import *
+ModuleNotFoundError: No module named 'etl_script.etl_script'; 'etl_script' is not a package
+[2023-02-01T11:18:27.190+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:18:27.215+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 2.810 seconds
+[2023-02-01T11:18:50.603+0000] {processor.py:153} INFO - Started process (PID=313) to work on /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:18:50.605+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etl-dag.py for tasks to queue
+[2023-02-01T11:18:50.606+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:50.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:18:52.438+0000] {processor.py:753} INFO - DAG(s) dict_keys(['accidents_data_etl_pipeline']) retrieved from /opt/airflow/dags/etl-dag.py
+[2023-02-01T11:18:53.283+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:53.283+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:accidents_data_etl_pipeline
+[2023-02-01T11:18:53.313+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:53.312+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:accidents_data_etl_pipeline
+[2023-02-01T11:18:53.386+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:53.386+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:accidents_data_etl_pipeline
+[2023-02-01T11:18:53.389+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:53.388+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-01T11:18:53.435+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:53.433+0000] {dag.py:2697} INFO - Creating ORM DAG for accidents_data_etl_pipeline
+[2023-02-01T11:18:53.472+0000] {logging_mixin.py:137} INFO - [2023-02-01T11:18:53.471+0000] {dag.py:3427} INFO - Setting next_dagrun for accidents_data_etl_pipeline to 2023-02-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01T11:18:53.560+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etl-dag.py took 2.961 seconds
